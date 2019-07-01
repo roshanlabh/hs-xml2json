@@ -1,0 +1,16 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "description": "Hotel spider reservation processing system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roshan Labh",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "aws-sdk": "^2.481.0",
+    "xml2json": "^0.11.2"
+  }
+}
