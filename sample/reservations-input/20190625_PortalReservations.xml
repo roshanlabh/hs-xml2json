@@ -1,0 +1,49 @@
+<Reservations>
+	<Reservation ID="123abc" Hotel="abc123" From="2019-06-21" To="2019-06-23">
+		<Guest FirstName="James" LastName="Bond">
+			<Address>
+				<City>London</City>
+				<CountryCode>UK</CountryCode>
+			</Address>
+		</Guest>
+		<RoomStays>
+			<RoomStay>
+				<Room ID="123bcd">
+					<Occupancy Adults="2" Children="0"/>
+				</Room>
+				<Rates Plan="234bcd">
+					<Rate Date="2019-06-21" Amount="211" Currency="EUR" />
+					<Rate Date="2019-06-22" Amount="222" Currency="EUR" />
+				</Rates>
+			</RoomStay>
+		</RoomStays>
+		<Comments>
+		Please give us a room far from the elevator, thanks!
+		</Comments>
+	</Reservation>
+	<Reservation ID="123abd" Hotel="abc124" From="2019-06-22" To="2019-06-26">
+		<Guest FirstName="Hubert" LastName="Bonisseur de La Bath">
+			<Address>
+				<Street>Rue Quincampoix</Street>
+				<City>Paris</City>
+				<CountryCode>FR</CountryCode>
+			</Address>
+		</Guest>
+		<RoomStays>
+			<RoomStay>
+				<Room ID="123cde">
+					<Occupancy Adults="2" Children="2"/>
+				</Room>
+				<Rates Plan="234cde">
+					<Rate Date="2019-06-22" Amount="211" Currency="EUR" />
+					<Rate Date="2019-06-23" Amount="222" Currency="EUR" />
+					<Rate Date="2019-06-24" Amount="211" Currency="EUR" />
+					<Rate Date="2019-06-25" Amount="199" Currency="EUR" />
+				</Rates>
+			</RoomStay>
+		</RoomStays>
+		<Comments>
+		Merci de nous donner une chambre à un étage élevé!
+		</Comments>
+	</Reservation>
+</Reservations>

@@ -1,0 +1,21 @@
+{
+  "reservationId": "123abc",
+  "startDate": "2019-06-21",
+  "endDate": "2019-06-23",
+  "guestRoomId": "123bcd",
+  "ratePlanId": "234bcd",
+  "totalPrice": 433,
+  "currency": "EUR",
+  "guestCount": {
+    "adults": "2",
+    "children": "0"
+  },
+  "guestDetails": {
+    "firstName": "James",
+    "lastName": "Bond",
+    "address": ", London, UK",
+    "comments": [
+      "Please give us a room far from the elevator, thanks!"
+    ]
+  }
+}
