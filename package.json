@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "async": "^3.1.0",
-    "aws-sdk": "^2.481.0",
+    "aws-sdk": "^2.814.0",
     "xml2json": "^0.11.2"
   }
 }
